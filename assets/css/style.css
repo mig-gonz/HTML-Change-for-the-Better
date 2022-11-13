@@ -1,48 +1,49 @@
 nav,
 .nav {
-    color: white;
-    background: linear-gradient(aqua, black);
+  color: white;
+  background: linear-gradient(black, black);
 }
 
 main,
 .main {
-    background: linear-gradient(aqua, rgb(211, 25, 25));
+  background: linear-gradient(aqua, blue);
 }
 
 .banner {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
-.btn1 {
+/* .btn1 {
     color: green;
     background-color: red;
-}
+} */
 
-.btn2 {
+/* .btn2 {
     color: crimson;
     background-color: green;
-}
+} */
 
 footer,
 .footer {
-    background: linear-gradient(to top, aqua, black);
-    color: white;
+  /* background: linear-gradient(to top, aqua, black); */
+  background-color: black;
+  color: white;
 }
 
-.flashy-text {
+/* .flashy-text {
     color: aqua;
     animation: blink-animation 0.2s steps(5, start) infinite;
     -webkit-animation: blink-animation 0.2s steps(5, start) infinite;
-}
+} */
 
 @keyframes blink-animation {
-    to {
-        visibility: hidden;
-    }
+  to {
+    visibility: hidden;
+  }
 }
 @-webkit-keyframes blink-animation {
-    to {
-        visibility: hidden;
-    }
+  to {
+    visibility: hidden;
+  }
 }
